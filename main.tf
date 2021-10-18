@@ -35,15 +35,5 @@ resource "aws_instance" "flugel_EC2" {
   tags = {
     "Name" = "Flugel"
     Owner  = "InfraTeam"
-
   }
-
-<<<<<<< HEAD
-
-
-
-
 }
-=======
-}
->>>>>>> 309d4dc612c951d5920d14272d6691d2a7141d9a
