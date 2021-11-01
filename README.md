@@ -1,4 +1,5 @@
 
+
 #To Deploy S3 bucket and EC2 instance, run
 
 1.  terraform plan/apply will require aws credentials to run. It is recommended to provide these credentials as environment variables like this:
@@ -36,5 +37,23 @@ go mod init "test"
 go mod tidy
 
 3. Run the test:
+=======
+_To Deploy S3 bucket and EC2 instance_, run
+
+terraform init
+
+terraform plan
+
+terraform apply
+
+_To destroy_, run
+
+terraform destroy
+
+_To run Terratest_
+
+cd test
+
+go mod init test
 
 go test -v
