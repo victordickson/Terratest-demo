@@ -1,6 +1,9 @@
 name: "Tags test Github Actions"
 
-on: [pull_request]
+on: 
+  pull_request:
+    branches:
+      - dev
 
 jobs:
   terraform_apply:
