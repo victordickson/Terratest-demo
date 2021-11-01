@@ -1,9 +1,6 @@
 name: "Tags test Github Actions"
 
-on: 
-  pull_request:
-    branches:
-      - dev
+on: [pull_request]
 
 jobs:
   terraform_apply:
@@ -34,7 +31,7 @@ jobs:
 
     - name: Setup Dependencies
       working-directory: test/
-      run:  go get -v -t -d && go mod tidy
+      run:  go get -v -t -d 
 
     - name: Test
       working-directory: test/
