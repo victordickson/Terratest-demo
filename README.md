@@ -1,5 +1,5 @@
 
-_To Deploy S3 bucket and EC2 instance_, run
+# To Deploy S3 bucket and EC2 instance,  run
 
 terraform init
 
@@ -7,11 +7,11 @@ terraform plan
 
 terraform apply
 
-_To destroy_, run
+# To destroy, run
 
 terraform destroy
 
-_To run Terratest_
+# To run Terratest
 
 cd test
 
